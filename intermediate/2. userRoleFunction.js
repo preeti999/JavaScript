@@ -10,7 +10,8 @@ other - trial user
 Input : getUserRole(name, role)
 */
 
-// function getUserRole(name, role) {
+    // function getUserRole(name, role) {
+    // var getUserRole = (name,role)=> {
     
 var getUserRole = function(name,role){
 

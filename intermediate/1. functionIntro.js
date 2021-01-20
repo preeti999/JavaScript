@@ -1,3 +1,4 @@
+///// function without return statment /////////
 function example (name){
     console.log("hello preeti");
     console.log(`hello ${name}. how are you?`);
