@@ -53,7 +53,7 @@ console.log("==>Add an item to the beginning of an Array");
 userInfo.unshift("addaed new value");
 console.log(userInfo);
 
-// Remove an item from the beginning of an Array
+// Remove an item from the beginning of an Array.
 console.log("==>Remove an item from the beginning of an Array");
 userInfo.shift();
 console.log(userInfo);
