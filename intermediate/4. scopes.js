@@ -9,7 +9,7 @@ function sayName() {
     sayNameSecondTime();
     function sayNameSecondTime() {
         // var myName = "no need";
-        console.log("at line number 12",myName);
+        console.log("at line number 12", myName);
     }
 }
 sayName();
