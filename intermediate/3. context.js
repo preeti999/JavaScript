@@ -60,7 +60,7 @@ var bigTipper = function (a) {
 console.log(myName);       // ==> undefined
 var myName = "preeti";
 
-function sayName(){
+function sayName() {
     var name = "preeti is this side";
     console.log(name);
 }

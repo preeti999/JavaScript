@@ -10,32 +10,32 @@ other - trial user
 Input : getUserRole(name, role)
 */
 
-    // function getUserRole(name, role) {
-    // var getUserRole = (name,role)=> {
-    
-var getUserRole = function(name,role){
+// function getUserRole(name, role) {
+// var getUserRole = (name,role)=> {
+
+var getUserRole = function (name, role) {
 
     switch (role) {
         case "admin":
             return `${name} is admin with all the access`
-            // break; 
-            // break is not necessary
+        // break; 
+        // break is not necessary
         case "subadmin":
             return `${name} is sub-admin with access to create and delete the cource`
-            // break;
+        // break;
         case "testPrep":
             return `${name} is test prep with access to create a test`
-            // break;
+        // break;
         case "user":
             return `${name} is user to consume the content`
-            // break;
+        // break;
         default:
             return `${name} is a trial user`
-            // break;
+        // break;
     }
 }
 
-console.log(getUserRole("preeti","admin"));
+console.log(getUserRole("preeti", "admin"));
 
 var getRole = getUserRole("preeti kumari", "user");
 console.log(getRole);
