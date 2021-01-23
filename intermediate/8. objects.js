@@ -9,14 +9,14 @@ var iphone = {
     faceID: true,
     Chip: "A14 Bionic chip with next-generation Neural Engine",
     waterResistant: true,
-    Height:"5.78 inches",
+    Height: "5.78 inches",
     width: "71.5mm",
-    Depth:"0.29 inch ",
-    Weight :"6.66 ounces",
-    Capacity:"128GB, 256GB, 512GB",
+    Depth: "0.29 inch ",
+    Weight: "6.66 ounces",
+    Capacity: "128GB, 256GB, 512GB",
 }
 console.table(iphone);
 // console.log(iphone);
 console.log(iphone.Name);
-iphone.faceID= false;
+iphone.faceID = false;
 console.log(iphone.faceID);
