@@ -22,6 +22,7 @@ pink.addEventListener("click", () => {
 */
 
 const magicColorChanger = (element, color) => {
+
     return element.addEventListener("mouseover", () => {
         center.style.background = color;
     });
