@@ -16,6 +16,6 @@ preeti.getUserNAme();
 // caling a prototype without constuctor
 var shivam = Object.create(User, {
     name: { value: "Shivam kumar" },
-    courseCount:{value:5}
+    courseCount: { value: 5 }
 });
 shivam.getUserNAme();
