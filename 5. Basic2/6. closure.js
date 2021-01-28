@@ -26,6 +26,7 @@ function addTwoNumber(x) {
 var result = addTwoNumber(5);
 console.log("Result is: ", result(4));
 
+// curring
 console.log(addTwoNumber(5)(5));    // this is possible bcz of closure and memory in javascript ==> also used in redux
 
 
