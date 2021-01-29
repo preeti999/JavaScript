@@ -8,18 +8,31 @@ class User {
         this.name = name;
         this.email = email;
     }
-    courseList = [];
+    // Private variable => just put "#"
+    #courseList = [];
 
     getInfo() {
         return { name: this.name, email: this.email };
     }
+
+    // work as setter
     enrollCoursce(name) {
-        this.courseList.push(name);
+        this.#courseList.push(name);
     }
 
+    // work as getter
     getCourceList() {
-        return this.courseList;
+        return this.#courseList;
     }
 }
 
 module.exports = User;
+
+const tommy = new User("tommy", "tommy@gmail.com")
+console.log(tommy.getInfo());
+tommy.enrollCoursce("C++");
+console.log(tommy.getCourceList());
+
+// Because the function is private that's why line no 36 shows "undefined"
+console.log(tommy.getCourceList);
+
