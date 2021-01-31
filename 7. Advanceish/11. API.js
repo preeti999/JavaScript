@@ -13,4 +13,3 @@ fetch("https://api.chucknorris.io/jokes/random")
         console.log("JOKE: ", joke);
     })
     .catch();
-
