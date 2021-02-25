@@ -26,7 +26,6 @@ function flip() {
     }
 }
 
-
 function checkCards() {
     if (firstCard.dataset.image === secondCard.dataset.image) {
         success();
